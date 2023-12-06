@@ -1,7 +1,7 @@
 {
-  "collection": "https://cdm16786.contentdm.oclc.org/iiif/2/sm/manifest.json",
+  "collection": "https://iiif.archive.org/iiif/3/saltlakeunderground/collection.json",
   "featured": [
-    "https://cdm16786.contentdm.oclc.org/iiif/2/sm:49/manifest.json"
+    "https://iiif.archive.org/iiif/3/slug_ut_220/manifest.json"
   ],
-  "metadata": ["Composer", "Genre", "Date of Publication"]
+  "metadata": ["subject", "title", "language"]
 }
