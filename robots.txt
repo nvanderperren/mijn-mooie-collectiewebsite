@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nvanderperren.github.io/mijn-mooie-collectiewebsite
+
+# Sitemaps
+Sitemap: https://nvanderperren.github.io/mijn-mooie-collectiewebsite/sitemap.xml
