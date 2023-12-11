@@ -1,7 +1,28 @@
 {
-  "collection": "https://iiif.archive.org/iiif/3/saltlakeunderground/collection.json",
+  "collection": "https://digital.lib.utk.edu/assemble/collection/gsmrc/wcc",
   "featured": [
-    "https://iiif.archive.org/iiif/3/slug_ut_220/manifest.json"
+    "https://digital.lib.utk.edu/assemble/manifest/wcc/323"
   ],
-  "metadata": ["subject", "title", "language"]
+  "metadata": ["Subject", "Date"],
+  "map": {
+    "enabled": true,
+    "defaultBounds": [[51.505, -0.09]],
+    "icon": {
+      "iconUrl": "images/marker-icon.png",
+      "iconSize": [24, 36],
+      "iconAnchor": [12, 36]
+    },
+    "tileLayers": [
+      {
+        "name": "openTopoMap",
+        "url": "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+      },
+      {
+        "name": "OpenStreetMap",
+        "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors"
+      }
+    ]
+  }
 }

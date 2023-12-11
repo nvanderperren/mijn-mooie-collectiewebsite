@@ -1,14 +1,22 @@
 [
   {
     "path": "/works",
-    "text": "Works"
+    "text": "Werken"
   },
   {
     "path": "/metadata",
-    "text": "Metadata"
+    "text": "Filter"
   },
   {
     "path": "/about",
-    "text": "About"
+    "text": "Over dit project"
+  },
+  {
+    "path": "/map",
+    "text": "Kaart"
+  },
+  {
+    "path": "/photo",
+    "text": "Foto"
   }
 ]
